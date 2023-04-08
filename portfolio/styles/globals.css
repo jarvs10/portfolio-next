@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@media (min-width: 768px) {
+  .gridabout {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+}
